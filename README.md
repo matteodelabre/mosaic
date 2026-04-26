@@ -18,6 +18,12 @@ This module can be used to create such diagrams of cost landscapes.
 
 ## Examples
 
+In each diagram, the $x$ and $y$ axes represent possible costs for the first two dimensions.
+In the first and last examples, the third dimension is fixed to 1.
+Any point inside a region corresponds to vector $c$ that makes the associated vector optimal.
+These regions may be polygons, lines, or even single points.
+On boundaries between two regions, all vectors of the neighboring regions are simultaneously optimal.
+
 ![](examples/ex1.svg)
 ![](examples/ex2.svg)
 ![](examples/ex3.svg)
